@@ -1,11 +1,9 @@
 import React from 'react';
-import ChatStack from './Router';
+import { ChatStack } from './Router';
 
 class App extends React.Component {
   render() {
-    return(
-      <ChatStack />
-    );
+    return(<ChatStack />);
   }
 }
 
